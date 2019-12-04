@@ -1,0 +1,101 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  background: #7E8063;
+  color: #000;
+  margin: 0;
+}
+
+section {
+  display: flex;
+  max-width: 1280px;
+  margin: auto;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 3rem;
+}
+
+.typewriter h1 {
+  color: #000;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #000 }
+}
+
+p {
+  padding: 0 8rem 0 8rem;
+}
+
+h2 {
+  font-family: 'Livvic', sans-serif;
+  font-size: 2rem;
+  background-color: #F2F0D8;
+  width: 45%;
+}
+
+img {
+  max-width: 100%;
+  padding: 0 7rem 0 7rem;
+}
+
+.attribution {
+  align-items: center;
+}
+
+#chart {
+  width: 60%;
+  height: 500px;
+}
+
+.icon {
+  padding-right: 1rem;
+}
+
+button {
+  display: block;
+}
+
+footer {
+  font-family: 'Playfair Display', serif;
+  text-align: left;
+  margin: 0;
+  font-size: 1rem;
+  padding: 0 15rem 2rem 15rem;
+}
+
+a {
+    color: #f2d9bb;
+}
+
+a:hover {
+    color: #d8ad78;
+    text-decoration: inherit;
+}
