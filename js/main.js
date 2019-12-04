@@ -47,7 +47,6 @@ Highcharts.chart('chart', {
 });
 /* End chart */
 
-// Air Quality button //
 const clicker = document.querySelector('.button');
 const myText = document.querySelector('#airqualityinfo');
 

@@ -50,8 +50,16 @@ h1 {
   50% { border-color: #000 }
 }
 
+#intro {
+    padding: 0 8rem 0 8rem;
+}
+
 p {
-  padding: 0 8rem 0 8rem;
+  padding-right: 4rem;
+}
+
+.attribute {
+  padding-left: 8rem;
 }
 
 h2 {
@@ -63,11 +71,7 @@ h2 {
 
 img {
   max-width: 100%;
-  padding: 0 7rem 0 7rem;
-}
-
-.attribution {
-  align-items: center;
+  padding: 0 8rem 0 8rem;
 }
 
 #chart {
@@ -75,12 +79,26 @@ img {
   height: 500px;
 }
 
+#container1 {
+  display: inline-block;
+}
+
 .icon {
-  padding-right: 1rem;
+  padding: 2rem 2rem 2rem 4rem;
+  display: inline-block;
+}
+
+#benefit-buttons {
+  display: inline-block;
 }
 
 button {
   display: block;
+}
+
+.plant {
+  display: inline;
+  padding: 2rem 2.5rem 2rem 0rem;
 }
 
 footer {
