@@ -23,6 +23,10 @@ section {
   display: flex;
 }
 
+#container1 div {
+  flex: 1 1 0;
+}
+
 h1 {
   text-align: center;
   padding-top: 2rem;
@@ -98,7 +102,7 @@ img {
 }
 
 .icon {
-  padding: 2rem 2rem 2rem 4rem;
+  padding: 2rem 2rem 2rem 0;
   display: inline-block;
 }
 
@@ -172,7 +176,7 @@ a:hover {
     padding-right: 2rem;
   }
   footer {
-    padding: 2rem 1rem 2rem 1rem;
+    padding: 2rem 1.5rem 2rem 1.5rem;
   }
 
   #intro {

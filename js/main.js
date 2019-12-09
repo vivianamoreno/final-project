@@ -56,13 +56,11 @@ text.style.display = 'none';
 // event handler
 image.onclick = () => {
    text.style.display = 'block';
-   div.style.display = 'none';
 };
 
 // another event handler
 text.onclick = () => {
    text.style.display = 'none';
-   div.style.display = 'block';
 };
 
 // mood button //
@@ -73,13 +71,11 @@ text2.style.display = 'none';
 // event handler
 image2.onclick = () => {
    text2.style.display = 'block';
-   div.style.display = 'none';
 };
 
 // another event handler
 text2.onclick = () => {
    text2.style.display = 'none';
-   div.style.display = 'block';
 };
 
 // productivity button //
@@ -90,13 +86,11 @@ text3.style.display = 'none';
 // event handler
 image3.onclick = () => {
    text3.style.display = 'block';
-   div.style.display = 'none';
 };
 
 // another event handler
 text3.onclick = () => {
    text3.style.display = 'none';
-   div.style.display = 'block';
 };
 
 // aloe vera plant info hover //
